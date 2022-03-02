@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+  <head>
+    <title> Tabibyab </title>
+    <link rel = "stylesheet" type ="text/css" href="{% static 'tabib/in.css' %}">
+  </head>
+  <body>
+    <div><h1>Tabibyab</h1>
+      <h2>by soroosh morshedi</h2>
+      <p> this is for test</p>
+      <a href="/doc/all">all doctors</a>
+    </div>
+    <div class='mydiv'>
+      <h3> avalible doctors : </h3>
+      {% for d in doc %}
+        <h2>doctor {{d.name}} {{ d.last_name }}</h2>
+        <a href="/docdaydetail/{{d.id}}">see apointments</a>
+      {% endfor %}
+    </div>
+  </body>
+</html>

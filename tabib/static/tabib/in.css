@@ -1,0 +1,36 @@
+BODY {
+	background-color : #1E2528 ;
+}
+
+div {
+	text-align : center;
+	border-radius : 15px ;
+	border : 5px solid #0EF6BE;
+	background : #3A504B;
+	padding : 5px 20px 20px 20px ;
+	margin-top : 20px ;
+	margin-left : 50px;
+	margin-right : 50px ;
+	margin-bottom : 20px ;
+	}
+
+
+h1 {
+	color : #c1e2b3;
+}
+
+h2 {
+	color : #67b168;
+}
+h3 {
+	color : #c1e2b3
+
+}
+
+p {
+	color : #c1e2b3;
+}
+
+a {
+	color : #2aabd2;
+}
